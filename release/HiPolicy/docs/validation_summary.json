@@ -1,0 +1,126 @@
+{
+  "local_unit_tests": {
+    "count": 15,
+    "passed": true
+  },
+  "original_computation_bodies": 64,
+  "structure_comparisons": [
+    {
+      "benchmark": "robotwin_v1",
+      "policy": "dp",
+      "mode": "structure",
+      "device": "meta (RGB encoder on CPU)",
+      "baseline": "original scheduler and optimizer",
+      "passed": true
+    },
+    {
+      "benchmark": "robotwin_v1",
+      "policy": "dp3",
+      "mode": "structure",
+      "device": "meta (RGB encoder on CPU)",
+      "baseline": "original scheduler and optimizer",
+      "passed": true
+    },
+    {
+      "benchmark": "robotwin_v2",
+      "policy": "dp",
+      "mode": "structure",
+      "device": "meta (RGB encoder on CPU)",
+      "baseline": "original scheduler and optimizer",
+      "passed": true
+    },
+    {
+      "benchmark": "robotwin_v2",
+      "policy": "dp3",
+      "mode": "structure",
+      "device": "meta (RGB encoder on CPU)",
+      "baseline": "original scheduler and optimizer",
+      "passed": true
+    }
+  ],
+  "cuda_numerical_parity": "not run",
+  "real_checkpoint_evaluation": "not run",
+  "simulation": "not run",
+  "paper_reproduction": "not run",
+  "validation_date": "2026-09-21",
+  "local_environment": {
+    "os": "macOS",
+    "python": "3.9",
+    "torch": "2.4.1",
+    "device": "cpu",
+    "memory_gib": 16
+  },
+  "cpu_numerical_comparisons": [
+    {
+      "benchmark": "robotwin_v1",
+      "policy": "dp",
+      "mode": "numerical",
+      "passed": true,
+      "device": "cpu",
+      "baseline": "original scheduler and optimizer",
+      "action_shape": [
+        2,
+        8,
+        14
+      ],
+      "max_action_abs_difference": 0.0,
+      "loss_abs_difference": 0.0,
+      "gradient_tensor_count": 224,
+      "updated_state_tensor_count": 241
+    },
+    {
+      "benchmark": "robotwin_v1",
+      "policy": "dp3",
+      "mode": "numerical",
+      "device": "cpu",
+      "baseline": "original scheduler and optimizer",
+      "passed": true,
+      "action_shape": [
+        2,
+        8,
+        14
+      ],
+      "max_action_abs_difference": 0.0,
+      "loss_abs_difference": 0.0,
+      "gradient_tensor_count": 184,
+      "updated_state_tensor_count": 198
+    },
+    {
+      "benchmark": "robotwin_v2",
+      "policy": "dp",
+      "mode": "numerical",
+      "passed": true,
+      "device": "cpu",
+      "baseline": "original scheduler and optimizer",
+      "action_shape": [
+        2,
+        24,
+        14
+      ],
+      "max_action_abs_difference": 0.0,
+      "loss_abs_difference": 0.0,
+      "gradient_tensor_count": 224,
+      "updated_state_tensor_count": 239
+    },
+    {
+      "benchmark": "robotwin_v2",
+      "policy": "dp3",
+      "mode": "numerical",
+      "device": "cpu",
+      "baseline": "original scheduler and optimizer",
+      "passed": true,
+      "action_shape": [
+        2,
+        8,
+        14
+      ],
+      "max_action_abs_difference": 0.0,
+      "loss_abs_difference": 0.0,
+      "gradient_tensor_count": 184,
+      "updated_state_tensor_count": 198
+    }
+  ],
+  "full_size_parallel_eg": "not run; parallel interface checked with lightweight denoisers",
+  "python38_syntax_files": 219,
+  "original_source_files_unchanged": 883
+}

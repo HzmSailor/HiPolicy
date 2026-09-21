@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hipolicy"
+version = "0.1.0"
+description = "Hierarchical Multi-Frequency Action Chunking for Policy Learning"
+requires-python = ">=3.8,<3.11"
+
+[project.scripts]
+hipolicy = "execution.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "policy", execution = "execution"}
+packages = ["diffusion_policy", "hipolicy_compat", "diffusion_policy_3d", "diffusion_policy.dataset", "diffusion_policy.workspace", "diffusion_policy.common", "diffusion_policy.model", "diffusion_policy.env_runner", "diffusion_policy.policy", "diffusion_policy.shared_memory", "diffusion_policy.model.vision", "diffusion_policy.model.diffusion", "diffusion_policy.model.common", "hipolicy_compat.robotwin_v1", "hipolicy_compat.robotwin_v2", "diffusion_policy_3d.dataset", "diffusion_policy_3d.common", "diffusion_policy_3d.model", "diffusion_policy_3d.env_runner", "diffusion_policy_3d.policy", "diffusion_policy_3d.model.vision", "diffusion_policy_3d.model.diffusion", "diffusion_policy_3d.model.common", "execution"]

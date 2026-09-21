@@ -1,0 +1,514 @@
+[
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "release": "policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "class": "DiffusionUnetImagePolicy",
+    "method": "__init__",
+    "profile": "robotwin_v1",
+    "sha256": "6efc6e7af17b51e8aa5b307788ceed5b7057789b7c62fdee031f90b49542a0d7"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "release": "policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "class": "DiffusionUnetImagePolicy",
+    "method": "set_normalizer",
+    "profile": "robotwin_v1",
+    "sha256": "9e3228d1d423d94c39c302a31f1f35d9abd39646503a0728019abb90cafae68e"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "release": "policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "class": "DiffusionUnetImagePolicy",
+    "method": "compute_loss",
+    "profile": "robotwin_v1",
+    "sha256": "4b173c7211c24f9dd870934a40bb205a6892c4db8515f0dc3edee38083fb56bb"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "release": "policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "class": "MultiImageObsEncoder",
+    "method": "__init__",
+    "profile": "robotwin_v1",
+    "sha256": "3dc6d07a68f9ee04f56c0020cfc15b647a853a01651552d16fb84dd3933ca91d"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "release": "policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "class": "MultiImageObsEncoder",
+    "method": "forward",
+    "profile": "robotwin_v1",
+    "sha256": "d55c06541294d8f81b642a7e5ff0e4c870aa3e1dbc593115aeefde6e0aac1a7d"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "release": "policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "class": "MultiImageObsEncoder",
+    "method": "output_shape",
+    "profile": "robotwin_v1",
+    "sha256": "a9c54f2a14a36bd4a738d1e74106886a791b533b3b3d82336cb3b0f585cadd0b"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "__init__",
+    "profile": "robotwin_v1",
+    "sha256": "a9143306d3590737cace778d9004c53ad453c85a430e1ce646c36546e09bd046"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "forward",
+    "profile": "robotwin_v1",
+    "sha256": "961d75237754287e29d3062a707a4769befebe5f1be6508e0ef5721a597affb3"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/model/common/normalizer.py",
+    "release": "policy/diffusion_policy/model/common/normalizer.py",
+    "class": null,
+    "method": "_normalize",
+    "profile": "robotwin_v1",
+    "sha256": "5296c2b3ece8ac8c9dc32a1e1dbb282e8862ad1d3f01ca62247e8cf4b845e65f"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/policy/dp3.py",
+    "release": "policy/diffusion_policy_3d/policy/dp3.py",
+    "class": "DP3",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "02e9ec5f1bf11d33fadd8dcc54b16ccf62b04d73e8f75f12c61a6e6efac9a6a4"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/policy/dp3.py",
+    "release": "policy/diffusion_policy_3d/policy/dp3.py",
+    "class": "DP3",
+    "method": "set_normalizer",
+    "profile": null,
+    "sha256": "2e4ce684f271f7dabab3197392589df831764d59d0720b6604fecbbaff5d83c3"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/policy/dp3.py",
+    "release": "policy/diffusion_policy_3d/policy/dp3.py",
+    "class": "DP3",
+    "method": "compute_loss",
+    "profile": null,
+    "sha256": "cca3ebc509766514fcd46833b00cb452be63a54447fee1260a0b706a2903aa99"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "MultiHeadAttention",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "fd82fe84f6a365f9d0acf1d2101073e45e48885343e498f3d0c82898fd5712e3"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "MultiHeadAttention",
+    "method": "forward",
+    "profile": null,
+    "sha256": "20a21652960ce36f040fba2306a42f175f471a93ee8e2720f7ba0dd6cf6b31b7"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "CrossAttention",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "65545849edfbb8d662396a38d5babdffd7caa94ea116e60a2a2d16823ea81345"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "CrossAttention",
+    "method": "forward",
+    "profile": null,
+    "sha256": "29c5a7304446697334b74fb4c993a8fe3f8d0f2466ef1d950d1fdd3e94f8ff6f"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalResidualBlock1D",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "0c4ef4668b98fe2778c9c71d655a1085596a41387397bb2b210fcb234615d5b1"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalResidualBlock1D",
+    "method": "forward",
+    "profile": null,
+    "sha256": "36c4d2c66e7d0fdb73e7c3d70983c98d2bb8d88e3c89b3ec9a9acb2264146e5f"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "eb6655f19df7495d54c2130af207dbe517deffc28226a81250b4810c9aaad75e"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "forward",
+    "profile": null,
+    "sha256": "cacf8b1fdbe69f019bba91c6a6c0fa1fe9b0b748c7ed3548c04df72b3d252178"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZRGB",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "c38088cc4fb27f5234c69770ec3c706be2fa8cb4173783fd13c7c80a24be786c"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZRGB",
+    "method": "forward",
+    "profile": null,
+    "sha256": "bd02b4199befc2df1059c0587c421a29daa2e32aafed25d2874d24edfa691c1e"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "ff809bdeb1066cb3743027758ec044965585882826897022e7be2428edc4fdbc"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "forward",
+    "profile": null,
+    "sha256": "bd02b4199befc2df1059c0587c421a29daa2e32aafed25d2874d24edfa691c1e"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "save_gradient",
+    "profile": null,
+    "sha256": "0a6ca1626e02c4bd8b1fc6693a0b2bcdd316a644562e98d594e8f4a203a25d78"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "save_feature",
+    "profile": null,
+    "sha256": "88f2f605b884bd6a05bfbee352c88eade0d98e9bdfcb0af670b7a1311afc626d"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "save_input",
+    "profile": null,
+    "sha256": "502de5980c7cae894b757bbbc32f868ff2277c1741522fa93ec91e6ae88f11ab"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "DP3Encoder",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "d7fd1f61f38438fac2654d113eaebaeea9ddb167340bf11285eb3ed84d1c0fd6"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "DP3Encoder",
+    "method": "forward",
+    "profile": null,
+    "sha256": "06cc96e6b205aeb2405b5f689151c9e61e626a9acc569c96db2c7bc638496267"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "DP3Encoder",
+    "method": "output_shape",
+    "profile": null,
+    "sha256": "9d1415beb5710eff1854d5a600d067b935f4081e6f5e75fad5befe412ebe1315"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "release": "policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "class": "DiffusionUnetImagePolicy",
+    "method": "__init__",
+    "profile": "robotwin_v2",
+    "sha256": "727163fe8ac53082ea1ff071f557383b2bc2710302f82ee6be8eaf7bc100e2f3"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "release": "policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "class": "DiffusionUnetImagePolicy",
+    "method": "set_normalizer",
+    "profile": "robotwin_v2",
+    "sha256": "2e4ce684f271f7dabab3197392589df831764d59d0720b6604fecbbaff5d83c3"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "release": "policy/diffusion_policy/policy/diffusion_unet_image_policy.py",
+    "class": "DiffusionUnetImagePolicy",
+    "method": "compute_loss",
+    "profile": "robotwin_v2",
+    "sha256": "b85c16b32c6ae888083cff51fd2d7278a01c03a3151ce301411ef565d3dcfa53"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "release": "policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "class": "MultiImageObsEncoder",
+    "method": "__init__",
+    "profile": "robotwin_v2",
+    "sha256": "5ff9aa5e26392ba99c43f6946587bdbfa7a9f6dbc3196a693fdfaeee6d9b0aa3"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "release": "policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "class": "MultiImageObsEncoder",
+    "method": "forward",
+    "profile": "robotwin_v2",
+    "sha256": "8b79fca16c6328444397bc3a809c0dc4d03cd6ea107fadfadc1a8decda31de37"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "release": "policy/diffusion_policy/model/vision/multi_image_obs_encoder.py",
+    "class": "MultiImageObsEncoder",
+    "method": "output_shape",
+    "profile": "robotwin_v2",
+    "sha256": "a9c54f2a14a36bd4a738d1e74106886a791b533b3b3d82336cb3b0f585cadd0b"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "__init__",
+    "profile": "robotwin_v2",
+    "sha256": "a9143306d3590737cace778d9004c53ad453c85a430e1ce646c36546e09bd046"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "forward",
+    "profile": "robotwin_v2",
+    "sha256": "f4a0e723e473906a435230b2e07bf991f9d6c5e48dda283c821116318fa03edc"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/model/common/normalizer.py",
+    "release": "policy/diffusion_policy/model/common/normalizer.py",
+    "class": null,
+    "method": "_normalize",
+    "profile": "robotwin_v2",
+    "sha256": "6d4a95b75ee3de66d8be4a97df4cc203c101cffc5f053b775f4765b4beec513b"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/policy/dp3.py",
+    "release": "policy/diffusion_policy_3d/policy/dp3.py",
+    "class": "DP3",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "02e9ec5f1bf11d33fadd8dcc54b16ccf62b04d73e8f75f12c61a6e6efac9a6a4"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/policy/dp3.py",
+    "release": "policy/diffusion_policy_3d/policy/dp3.py",
+    "class": "DP3",
+    "method": "set_normalizer",
+    "profile": null,
+    "sha256": "2e4ce684f271f7dabab3197392589df831764d59d0720b6604fecbbaff5d83c3"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/policy/dp3.py",
+    "release": "policy/diffusion_policy_3d/policy/dp3.py",
+    "class": "DP3",
+    "method": "compute_loss",
+    "profile": null,
+    "sha256": "cca3ebc509766514fcd46833b00cb452be63a54447fee1260a0b706a2903aa99"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "MultiHeadAttention",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "fd82fe84f6a365f9d0acf1d2101073e45e48885343e498f3d0c82898fd5712e3"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "MultiHeadAttention",
+    "method": "forward",
+    "profile": null,
+    "sha256": "20a21652960ce36f040fba2306a42f175f471a93ee8e2720f7ba0dd6cf6b31b7"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "CrossAttention",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "65545849edfbb8d662396a38d5babdffd7caa94ea116e60a2a2d16823ea81345"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "CrossAttention",
+    "method": "forward",
+    "profile": null,
+    "sha256": "29c5a7304446697334b74fb4c993a8fe3f8d0f2466ef1d950d1fdd3e94f8ff6f"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalResidualBlock1D",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "0c4ef4668b98fe2778c9c71d655a1085596a41387397bb2b210fcb234615d5b1"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalResidualBlock1D",
+    "method": "forward",
+    "profile": null,
+    "sha256": "36c4d2c66e7d0fdb73e7c3d70983c98d2bb8d88e3c89b3ec9a9acb2264146e5f"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "eb6655f19df7495d54c2130af207dbe517deffc28226a81250b4810c9aaad75e"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "release": "policy/diffusion_policy_3d/model/diffusion/conditional_unet1d.py",
+    "class": "ConditionalUnet1D",
+    "method": "forward",
+    "profile": null,
+    "sha256": "cacf8b1fdbe69f019bba91c6a6c0fa1fe9b0b748c7ed3548c04df72b3d252178"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZRGB",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "c38088cc4fb27f5234c69770ec3c706be2fa8cb4173783fd13c7c80a24be786c"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZRGB",
+    "method": "forward",
+    "profile": null,
+    "sha256": "bd02b4199befc2df1059c0587c421a29daa2e32aafed25d2874d24edfa691c1e"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "ff809bdeb1066cb3743027758ec044965585882826897022e7be2428edc4fdbc"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "forward",
+    "profile": null,
+    "sha256": "bd02b4199befc2df1059c0587c421a29daa2e32aafed25d2874d24edfa691c1e"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "save_gradient",
+    "profile": null,
+    "sha256": "0a6ca1626e02c4bd8b1fc6693a0b2bcdd316a644562e98d594e8f4a203a25d78"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "save_feature",
+    "profile": null,
+    "sha256": "88f2f605b884bd6a05bfbee352c88eade0d98e9bdfcb0af670b7a1311afc626d"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "PointNetEncoderXYZ",
+    "method": "save_input",
+    "profile": null,
+    "sha256": "502de5980c7cae894b757bbbc32f868ff2277c1741522fa93ec91e6ae88f11ab"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "DP3Encoder",
+    "method": "__init__",
+    "profile": null,
+    "sha256": "d7fd1f61f38438fac2654d113eaebaeea9ddb167340bf11285eb3ed84d1c0fd6"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "DP3Encoder",
+    "method": "forward",
+    "profile": null,
+    "sha256": "06cc96e6b205aeb2405b5f689151c9e61e626a9acc569c96db2c7bc638496267"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "release": "policy/diffusion_policy_3d/model/vision/pointnet_extractor.py",
+    "class": "DP3Encoder",
+    "method": "output_shape",
+    "profile": null,
+    "sha256": "9d1415beb5710eff1854d5a600d067b935f4081e6f5e75fad5befe412ebe1315"
+  },
+  {
+    "source": "RoboTwin-V1/policy/Diffusion-Policy/diffusion_policy/workspace/robotworkspace.py",
+    "release": "policy/hipolicy_compat/robotwin_v1/dp_workspace.py",
+    "class": "RobotWorkspace",
+    "method": "run",
+    "kind": "training",
+    "sha256": "91501f4c392c26b26d7044c436658fc69bdc0cce09d266723ad32cda80355f03"
+  },
+  {
+    "source": "RoboTwin-V1/policy/3D-Diffusion-Policy/3D-Diffusion-Policy/train.py",
+    "release": "policy/hipolicy_compat/robotwin_v1/dp3_workspace.py",
+    "class": "TrainDP3Workspace",
+    "method": "run",
+    "kind": "training",
+    "sha256": "7a06c58bfe868276628e00eba1c1ef9c91a831a84e6c5f88a507cce4337564f2"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP/diffusion_policy/workspace/robotworkspace.py",
+    "release": "policy/hipolicy_compat/robotwin_v2/dp_workspace.py",
+    "class": "RobotWorkspace",
+    "method": "run",
+    "kind": "training",
+    "sha256": "b1690d2c0e826306261def85a8fc5fefe76360137ca4710ee85c6a47827b0aa4"
+  },
+  {
+    "source": "RoboTwin-V2/policy/DP3/3D-Diffusion-Policy/train_dp3.py",
+    "release": "policy/hipolicy_compat/robotwin_v2/dp3_workspace.py",
+    "class": "TrainDP3Workspace",
+    "method": "run",
+    "kind": "training",
+    "sha256": "f98939fc5238f4dd8ade6cb24dc621e4e20bff47604c18b1caed4d63ea7a4db7"
+  }
+]
